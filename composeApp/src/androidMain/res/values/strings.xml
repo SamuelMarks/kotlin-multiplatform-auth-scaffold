@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">KotlinMultiAuthScaffold</string>
+    <!-- taken from Apache-2.0 licensed Jetsurvey example app from android/compose-samples -->
+    <string name="dismiss">Dismiss</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="feature_not_available">Feature not available</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="back">Back</string>
 </resources>
