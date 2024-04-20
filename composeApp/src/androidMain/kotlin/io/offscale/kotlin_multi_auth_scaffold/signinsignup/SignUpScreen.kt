@@ -34,9 +34,10 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import io.offscale.kotlin_multi_auth_scaffold.R
-import io.offscale.kotlin_multi_auth_scaffold.theme.JetsurveyTheme
-import io.offscale.kotlin_multi_auth_scaffold.theme.stronglyDeemphasizedAlpha
-                                                                                                                                                                                                                                                                                                                                                                                                                                                import io.offscale.kotlin_multi_auth_scaffold.util.supportWideScreen
+// import io.offscale.kotlin_multi_auth_scaffold.theme.JetsurveyTheme
+// import io.offscale.kotlin_multi_auth_scaffold.theme.stronglyDeemphasizedAlpha
+import io.offscale.kotlin_multi_auth_scaffold.util.stronglyDeemphasizedAlpha
+import io.offscale.kotlin_multi_auth_scaffold.util.supportWideScreen
 
 @Composable
 fun SignUpScreen(
@@ -121,12 +122,12 @@ fun SignUpContent(
 @Preview(widthDp = 1024)
 @Composable
 fun SignUpPreview() {
-    JetsurveyTheme {
+    // JetsurveyTheme {
         SignUpScreen(
             email = null,
             onSignUpSubmitted = { _, _ -> },
             onSignInAsGuest = {},
             onNavUp = {},
         )
-    }
+    // }
 }

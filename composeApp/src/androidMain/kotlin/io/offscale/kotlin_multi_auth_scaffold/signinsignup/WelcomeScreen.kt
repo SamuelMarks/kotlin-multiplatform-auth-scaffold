@@ -46,8 +46,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import io.offscale.kotlin_multi_auth_scaffold.R
-import io.offscale.kotlin_multi_auth_scaffold.theme.JetsurveyTheme
-import io.offscale.kotlin_multi_auth_scaffold.theme.stronglyDeemphasizedAlpha
+import io.offscale.kotlin_multi_auth_scaffold.util.stronglyDeemphasizedAlpha
+// import io.offscale.kotlin_multi_auth_scaffold.theme.JetsurveyTheme
+// import io.offscale.kotlin_multi_auth_scaffold.theme.stronglyDeemphasizedAlpha
 import io.offscale.kotlin_multi_auth_scaffold.util.supportWideScreen
 
 @Composable
@@ -170,10 +171,10 @@ private fun SignInCreateAccount(
 @Preview(name = "Welcome dark theme", uiMode = UI_MODE_NIGHT_NO)
 @Composable
 fun WelcomeScreenPreview() {
-    JetsurveyTheme {
+    // JetsurveyTheme {
         WelcomeScreen(
             onSignInSignUp = {},
             onSignInAsGuest = {},
         )
-    }
+    // }
 }

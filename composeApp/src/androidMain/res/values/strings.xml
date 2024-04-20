@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">KotlinMultiAuthScaffold</string>
+    <string name="app_tagline">MultiAuth scaffold</string>
     <!-- taken from Apache-2.0 licensed Jetsurvey example app from android/compose-samples -->
     <string name="dismiss">Dismiss</string>
     <string name="sign_in">Sign in</string>
@@ -8,4 +9,14 @@
     <string name="feature_not_available">Feature not available</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="back">Back</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="or">or</string>
+    <string name="sign_in_guest">Sign in as guest</string>
+    <string name="user_continue">Continue</string>
+    <string name="create_account">Create account</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="terms_and_conditions">By continuing, you agree to our Terms of Service. We’ll
+        handle your data according to our Privacy Policy.</string>
+    <string name="sign_in_create_account">Sign in or create an account</string>
 </resources>

@@ -59,6 +59,8 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import io.offscale.kotlin_multi_auth_scaffold.R
+import io.offscale.kotlin_multi_auth_scaffold.util.stronglyDeemphasizedAlpha
+
 // import io.offscale.kotlin_multi_auth_scaffold.theme.JetsurveyTheme
 // import io.offscale.kotlin_multi_auth_scaffold.theme.stronglyDeemphasizedAlpha
 
